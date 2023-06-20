@@ -59,5 +59,12 @@
  299  kubectl get deploy
   300  kubectl autoscale deployment nginx-deployment --min=2 --max=6 --cpu-percent=80
   301  kubectl get hpa
-
+###create confimap and secret
+ 304  git pull
+  305  kubectl apply -f secret.yml
+  306  kubectl get secret
+  307  kubectl describe secret mysql-db-password
+    309  kubectl apply -f configmap.yml
+  310  kubectl get configmap
+  311  kubectl describe configmap usermgmt-config
 
