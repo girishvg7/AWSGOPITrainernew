@@ -3,3 +3,6 @@
   225  kubectl apply -f pod.yaml
 227  kubectl get pod
   228  kubectl describe pod nginx
+##3how to get the event log of nodes
+ 234  kubectl get nodes
+  236  kubectl describe node ip-192-168-31-149.ec2.internal
