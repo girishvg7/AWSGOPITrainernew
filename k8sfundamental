@@ -26,4 +26,16 @@
   254  kubectl get deployment
   255  kubectl get rs
   256  kubectl get pod -o wide
+  ####label selector in deployment
+    260  kubectl get deploy
+  261  kubectl get rs
+  262  kubectl get pod
+  263  kubectl delete pod nginx-deployment-7fb96c846b-kncfr
+  264  kubectl get pod
+  265  kubectl get deploy
+  266  kubectl describe deploy nginx-deployment
+  267  kubectl get rs
+  268  kubectl describe rs nginx-deployment-7fb96c846b
+  269  kubectl describe pod nginx-deployment-7fb96c846b-kncfr
+
 
