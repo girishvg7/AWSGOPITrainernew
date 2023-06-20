@@ -73,4 +73,12 @@
   vi sc.yml
   321  kubectl apply -f sc.yaml
   322  kubectl get sc
+  ###map pvc with storage class
+  327  git pull
+  ####
+  vi pvc.yml 
+  ###modify the storage class name
+  328  kubectl apply -f pvc.yml
+  329  kubectl get pvc
+
 
