@@ -68,3 +68,9 @@
   310  kubectl get configmap
   311  kubectl describe configmap usermgmt-config
 
+  ###change the storage class name
+  320  git pull
+  vi sc.yml
+  321  kubectl apply -f sc.yaml
+  322  kubectl get sc
+
