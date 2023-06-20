@@ -1,0 +1,5 @@
+223  git clone https://gitlab.com/gopal1409/k8s-manifest.git
+  224  cd k8s-manifest/
+  225  kubectl apply -f pod.yaml
+227  kubectl get pod
+  228  kubectl describe pod nginx
