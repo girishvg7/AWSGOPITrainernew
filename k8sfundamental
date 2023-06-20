@@ -6,3 +6,11 @@
 ##3how to get the event log of nodes
  234  kubectl get nodes
   236  kubectl describe node ip-192-168-31-149.ec2.internal
+###how to do dry run in k8s
+ 239  kubectl run nginx-dry --image nginx --dry-run=client -o yaml > drynginx.yaml
+  240  ls
+  241  cat drynginx.yaml
+  242  kubectl apply -f drynginx.yaml
+  243  kubectl get pod
+  244  kubectl edit pod nginx-dry
+###to close this edit press Esc :q!
