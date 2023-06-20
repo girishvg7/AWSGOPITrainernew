@@ -19,4 +19,11 @@
  247  kubectl get pod
   248  kubectl delete pod nginx
   249  kubectl get pod
+##deployment
+224  cd k8s-manifest/
+ 252  git pull
+  253  kubectl apply -f deployment.yml
+  254  kubectl get deployment
+  255  kubectl get rs
+  256  kubectl get pod -o wide
 
