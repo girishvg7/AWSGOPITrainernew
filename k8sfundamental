@@ -38,7 +38,7 @@
   268  kubectl describe rs nginx-deployment-7fb96c846b
   269  kubectl describe pod nginx-deployment-7fb96c846b-kncfr
 
-  ###rollout and rollback
+  
   
   275  kubectl set image deployment nginx-deployment nginx=nginx:1.16.1
   276  kubectl get deploy
@@ -55,5 +55,9 @@
  
   292  kubectl rollout undo deployment nginx-deployment --to-revision=1
 
+###scaling
+ 299  kubectl get deploy
+  300  kubectl autoscale deployment nginx-deployment --min=2 --max=6 --cpu-percent=80
+  301  kubectl get hpa
 
 
