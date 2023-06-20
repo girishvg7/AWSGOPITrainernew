@@ -98,5 +98,12 @@ show databases;
 ###3it will show you the webappdb which confirm that configmap has been executed
 exit
 exit
+####delete the mysql
+345  kubectl get deploy
+  346  kubectl delete deploy mysql-deployment
+  347  kubectl get pvc
+  348  kubectl delete pvc ebs-mysql-pv-claim
+  349  kubectl get sc
+  350  kubectl delete sc ebs-sc-gopal
 
 
