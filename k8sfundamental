@@ -14,3 +14,9 @@
   243  kubectl get pod
   244  kubectl edit pod nginx-dry
 ###to close this edit press Esc :q!
+
+###delete the pod
+ 247  kubectl get pod
+  248  kubectl delete pod nginx
+  249  kubectl get pod
+
