@@ -67,7 +67,7 @@ kubectl -n kube-system set image deployment.apps/cluster-autoscaler cluster-auto
 
 
 # Update Cluster Autoscaler Image Version
-kubectl -n kube-system set image deployment.apps/cluster-autoscaler cluster-autoscaler=us.gcr.io/k8s-artifacts-prod/autoscaling/cluster-autoscaler:v1.16.5
+kubectl -n kube-system set image deployment.apps/cluster-autoscaler cluster-autoscaler=us.gcr.io/k8s-artifacts-prod/autoscaling/cluster-autoscaler:v1.25.2
 ```
 
 ## Step-06: Verify Image version got updated
