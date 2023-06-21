@@ -11,4 +11,7 @@
  
   kubectl get pod -n fp-dev
   kubectl get deploy -n fp-dev
-
+###delete the fargate profile
+ eksctl get fargateprofile --cluster eks-gopal
+ kubectl get deploy -n fp-demo
+eksctl delete fargateprofile --cluster eks-gopal --name fp-demo --wait
