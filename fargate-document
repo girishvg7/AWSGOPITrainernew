@@ -1,0 +1,4 @@
+###create the fargate profile
+
+ 463  kubectl create ns fp-dev
+  464  eksctl create fargateprofile --cluster eks-gopal --name fp-demo --namespace fp-dev
