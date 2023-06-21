@@ -15,3 +15,5 @@
  eksctl get fargateprofile --cluster eks-gopal
  kubectl get deploy -n fp-demo
 eksctl delete fargateprofile --cluster eks-gopal --name fp-demo --wait
+###to verifyr
+ kubectl get deploy -n fp-demo
