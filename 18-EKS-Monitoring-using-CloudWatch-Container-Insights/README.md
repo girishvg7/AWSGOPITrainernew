@@ -51,7 +51,7 @@ kubectl apply -f kube-manifests
 ## Step-05: Generate load on our Sample Nginx Application
 ```
 # Generate Load
-kubectl run --generator=run-pod/v1 apache-bench -i --tty --rm --image=httpd -- ab -n 500000 -c 1000 http://sample-nginx-service.default.svc.cluster.local/ 
+kubectl run apache-bench -i --tty --rm --image=httpd -- ab -n 500000 -c 1000 http://sample-nginx-service.default.svc.cluster.local/ 
 ```
 
 ## Step-06: Access CloudWatch Dashboard 
