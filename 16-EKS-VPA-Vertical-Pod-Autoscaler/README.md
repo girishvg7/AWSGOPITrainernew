@@ -74,7 +74,7 @@ spec:
         maxAllowed:
           cpu: 1
           memory: 500Mi
-        controlledResources: ["cpu", "memory"]
+        
 ```
 
 ### Deploy VPA Manifest
