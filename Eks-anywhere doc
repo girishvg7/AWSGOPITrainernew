@@ -28,3 +28,5 @@ eksctl version
 
 ####install docker engine. 
 https://docs.docker.com/engine/install/ubuntu/
+
+docker --version
