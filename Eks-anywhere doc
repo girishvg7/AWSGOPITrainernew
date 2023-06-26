@@ -57,4 +57,10 @@ eksctl-anywhere
    53  ls
    54  cat dev-cluster-gopal-eks-a-cluster.kubeconfig
 
+    59  cat dev-cluster-gopal-eks-a-cluster.kubeconfig
+   60  cp dev-cluster-gopal-eks-a-cluster.kubeconfig /root/.kube/config
+   61  kubectl get nodes
+   62  kubectl get pod
+   63  kubectl get pod --all-namespaces
+
 
