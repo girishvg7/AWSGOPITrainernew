@@ -63,4 +63,10 @@ eksctl-anywhere
    62  kubectl get pod
    63  kubectl get pod --all-namespaces
 
+####deploy our workload in eksanywhere
+65  kubectl apply -f "https://anywhere.eks.amazonaws.com/manifests/hello-eks-a.yaml"
+   66  kubectl get deploy
+   67  kubectl get pod
+   68  kubectl get svc
+   69  history
 
