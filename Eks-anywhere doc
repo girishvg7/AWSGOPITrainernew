@@ -24,4 +24,7 @@ tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 
 sudo mv /tmp/eksctl /usr/local/bin
 
-eks version
+eksctl version
+
+####install docker engine. 
+https://docs.docker.com/engine/install/ubuntu/
