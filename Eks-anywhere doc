@@ -47,5 +47,5 @@ eksctl-anywhere
    50  cat dev-cluster-gopal.yml
 
    ####finally create the configuration from the file
-   anywhere create cluster -f dev-cluster-gopal.yml
+   eksctl anywhere create cluster -f dev-cluster-gopal.yml
 
