@@ -76,6 +76,8 @@ eksctl-anywhere
 ##resolve the error which is related to authentication from your vm till your aws console. 
 ##we will provide access key and secret access key
 aws configure
-######
+######after providing access key secret access key and region and output format json
+####try to register the cluster
 
+eksctl register cluster --name dev-eks-gopal --provider EKS_ANYWHERE --region us-east-1
 
