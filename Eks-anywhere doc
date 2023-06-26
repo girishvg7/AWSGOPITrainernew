@@ -49,3 +49,12 @@ eksctl-anywhere
    ####finally create the configuration from the file
    eksctl anywhere create cluster -f dev-cluster-gopal.yml
 
+   ###3verify the cluster is create or not
+   kubectl get nodes
+   #####error of localhost:8080 to resolve do ls and see a folder
+    51  ls
+   52  cd dev-cluster-gopal/
+   53  ls
+   54  cat dev-cluster-gopal-eks-a-cluster.kubeconfig
+
+
