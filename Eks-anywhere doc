@@ -69,4 +69,6 @@ eksctl-anywhere
    67  kubectl get pod
    68  kubectl get svc
    69  history
+##########how to register the cluster
+   68  eksctl register cluster --name dev-eks-gopal --provider EKS_ANYWHERE --region us-east-1
 
